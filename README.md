@@ -1,2 +1,2 @@
-# outdoor-experience
-A website that highlights recommended places for a wonderful outdoor experience.
+# Outdoor Experience
+A website that will highlight places that I recommend for people who are seeking a wonderful outdoor experience. The tech stack that will be used are HTML, CSS, SASS, Bootstrap and JavaScript. ReadMe content TBA.
