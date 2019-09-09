@@ -19,29 +19,6 @@
 
     <!-- Temporary Styles section -->
     <style>
-        .headerLogo {
-            height: 8rem;
-            width: 100%;  
-        }
-
-        .blog-header {
-            line-height: 1;
-            border-bottom: 1px solid #e5e5e5;
-        }
-
-        .text-white {
-            color: #fff!important;
-        }
-
-        .row {
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: -15px;
-            margin-left: -15px;
-        }
-
         .featurette-divider {
             margin: 5rem 0;
         }
@@ -52,144 +29,166 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <!-- Top Navigation Bar with the site logo -->
-        <div class="">
-            <header class="blog-header py-3">
-                <div class="row flex-nowrap justify-content-between align-items-center">
-                    <div class="col-4 pt-1">
-                    <a class="text-muted" href="#">View Gallery</a>
-                    </div>
-                    <div class="col-4 text-center">
-                    <a class="blog-header-logo text-dark" href="#">
-                        <img src="img/logo/WCape.png" class="headerLogo" alt="Website Logo">
-                    </a>
-                    </div>
-                    <div class="col-4 d-flex justify-content-end align-items-center">
-                    <a class="text-muted" href="#">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
-                    </a>
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Contact Us</a>
-                    </div>
-                </div>
-            </header>
-            
-            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample10" style="">
-                    <ul class="navbar-nav">
-                        <!-- Disabled Home Page Link -->
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
-                        </li>
-                        <!-- About Page Link -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <!-- Gallery Page Link -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
-                        </li>
-                        <!-- Activity Dropdown Links -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Activity</a>
+    <!-- Header & Top Navigation Bar with the site logo -->
+    <header class="blog-header py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <!-- Gallery Page Link -->
+            <section class="col-4 pt-1">
+                <a class="text-muted" href="#">View Gallery</a>
+            </section>
 
-                            <div class="dropdown-menu" aria-labelledby="dropdown10">
-                                <a class="dropdown-item" href="#">Camping</a>
-                                <a class="dropdown-item" href="#">Hiking</a>
-                                <a class="dropdown-item" href="#">Climbing</a>
-                                <a class="dropdown-item" href="#">Canoeing</a>
-                                <a class="dropdown-item" href="#">Fishing</a>
-                                <a class="dropdown-item" href="#">Hunting</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                </nav>
+            <!-- Logo -->
+            <section class="col-4 text-center">
+                <a class="blog-header-logo text-dark" href="#">
+                    <img src="img/logo/WCape.png" class="headerLogo" alt="Website Logo">
+                </a>
+            </section>
+
+            <!-- Search icon with Contact Us Modal Button -->
+            <section class="col-4 d-flex justify-content-end align-items-center">
+                <a class="text-muted" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+                </a>
+                <!-- Contact Us Modal Button -->
+                <a class="btn btn-sm btn-outline-secondary" href="#">Contact Us</a>
+            </section>
         </div>
-        <!-- End -->
-
-        <!-- Home Cover Jumbotron -->
-        <div class="jumbotron p-4 p-md-5 text-white rounded homeCover">
-            <div class="col-md-6 px-0">
-                <!-- Heading -->
-                <h1 class="display-4 font-italic">Experience the beauty the Western Cape has to offer</h1>
-                <!-- Quote -->
-                <p class="lead my-3">
-                    "Earth and sky, woods and fields, lakes and rivers, the mountains and the sea, are excellent schoolmasters, and teach us more than we can ever learn from books." - John Lubbock
-                </p>
-                <!-- Link to history of the Western Cape -->
-                <p class="lead mb-0">
-                    <a href="#" class="text-white font-weight-bold">Learn more about WCape...</a>
-                </p>
-            </div>
-        </div>
-
-        <!-- Cards with brief description for pages -->
-        <div class="row">
-        <!-- Card One (About The Western Cape) -->
-        <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                    <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                        </div>
-                        <small class="text-muted">9 mins</small>
-                    </div>
-                    </div>
-                </div>
-            </div>
+    </header>
+            
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <!-- Top Nav Bar Button that appears on smaller devices -->
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
     
+        <section class="navbar-collapse justify-content-md-center collapse" id="navbarsExample10" style="">
+            <ul class="navbar-nav">
+                <!-- Disabled Home Page Link -->
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Home</a>
+                </li>
+                <!-- About Page Link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <!-- Gallery Page Link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <!-- Activity Dropdown Links -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Activity</a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                        <a class="dropdown-item" href="#">Camping</a>
+                        <a class="dropdown-item" href="#">Hiking</a>
+                        <a class="dropdown-item" href="#">Climbing</a>
+                        <a class="dropdown-item" href="#">Canoeing</a>
+                        <a class="dropdown-item" href="#">Fishing</a>
+                        <a class="dropdown-item" href="#">Hunting</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+    <!-- End -->
+
+    <!-- Home Cover Jumbotron -->
+    <section class="jumbotron p-4 p-md-5 text-white homeCover">
+        <div class="col-md-6 px-0">
+            <!-- Heading -->
+            <h1 class="display-4 font-italic">Experience the beauty the Western Cape has to offer</h1>
+
+            <!-- Quote -->
+            <p class="lead my-3">
+                "Earth and sky, woods and fields, lakes and rivers, the mountains and the sea, are excellent schoolmasters, and teach us more than we can ever learn from books." - John Lubbock
+            </p>
+
+            <!-- Link to history of the Western Cape -->
+            <p class="lead mb-0">
+                <a href="#" class="text-white font-weight-bold">Learn more about WCape...</a>
+            </p>
+        </div>
+    </section>
+    <!-- End -->
+
+    <main>
+        <!-- Cards with brief description for pages -->
+        <section class="row cards">
+            <!-- Card One (About The Western Cape Page) -->
+            <div class="col-md-4">
+                <section class="card mb-4 shadow-sm">
+                    <img class="card-img-top about-card" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" aria-label="Placeholder: Thumbnail">
+
+                    <!-- The Content on the card -->
+                    <section class="card-body">
+                        <p class="card-text">
+                            Like all the provinces in South Africa, the Western Cape has a rich history that we would love to share with you. Click on the button below to learn more.
+                        </p>
+
+                        <section class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Learn More</button>
+                            </div>
+
+                            <small class="text-muted">ABOUT</small>
+                        </section>
+                    </section>
+                </section>
+            </div>
+        
             <!-- Card Two (Gallery Page Option -->
             <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                      <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top gallery-card" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" aria-label="Placeholder: Thumbnail">
+
+                    <!-- The Content on the card -->
+                    <div class="card-body">
+                        <p class="card-text">
+                            We have compiled beautiful images of people enjoying themselves across the province. Click the button below to view these images.
+                        </p>
+
                         <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                          </div>
-                          <small class="text-muted">9 mins</small>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View Gallery</button>
+                            </div>
+
+                            <small class="text-muted">GALLERY</small>
                         </div>
-                      </div>
                     </div>
-                  </div>
-    
+                </div>
+            </div>
+        
             <!-- Card Three (Contact Page Option) -->
             <div class="col-md-4">
-                    <div class="card mb-4 shadow-sm">
-                      <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                      <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                          <div class="btn-group">
-                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                          </div>
-                          <small class="text-muted">9 mins</small>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-        </div>
+                <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top contact-card" width="100%" height="225" preserveAspectRatio="xMidYMid slice" focusable="false" aria-label="Placeholder: Thumbnail">
 
+                    <!-- The content on the card -->
+                    <div class="card-body">
+                        <p class="card-text">
+                            We pride ourselves in giving you a full cyber experience before you get the full real life experience of the Western Cape. For any queries, get in touch with us.
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Contact Us</button>
+                            </div>
+
+                            <small class="text-muted">CONTACT</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
         <hr class="featurette-divider">
 
-        <main>
+        <article>
             <!-- First Outdoor Activity Option -->
-
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -199,7 +198,7 @@
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-    
+
             <div class="row featurette">
             <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
@@ -209,9 +208,9 @@
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
             </div>
             </div>
-    
+
             <hr class="featurette-divider">
-    
+
             <!-- Second Outdoor Activity Option -->
             <div class="row featurette">
                 <div class="col-md-7">
@@ -222,7 +221,7 @@
                 <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-    
+
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
@@ -232,11 +231,11 @@
                 <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-    
+
             <hr class="featurette-divider">
-    
+
             <!-- Third Outdoor Activity Option -->
-    
+
             <div class="row featurette">
                 <div class="col-md-7">
                 <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -256,11 +255,11 @@
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-    
+
             <hr class="featurette-divider">
-    
+
             <!-- Fourth Outdoor Activity Option -->
-    
+
             <div class="row featurette">
                 <div class="col-md-7">
                 <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -270,7 +269,7 @@
                 <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-                                  
+                                    
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
@@ -280,11 +279,11 @@
                 <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-    
+
             <hr class="featurette-divider">
-    
+
             <!-- Fifth Outdoor Activity Option -->
-    
+
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -304,11 +303,11 @@
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-    
+
             <hr class="featurette-divider">
-    
+
             <!-- Sixth Outdoor Activity Option -->
-    
+
             <div class="row featurette">
                 <div class="col-md-7">
                 <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -318,7 +317,7 @@
                 <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-                                                      
+                                                        
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
@@ -328,11 +327,11 @@
                 <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-    
+
             <hr class="featurette-divider">
-    
+
             <!-- Seventh Outdoor Activity Option -->
-    
+
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
@@ -342,7 +341,7 @@
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-    
+
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
                     <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
@@ -352,14 +351,14 @@
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                 </div>
             </div>
-        </main>
+        </article>
+    </main>
 
-        <hr class="featurette-divider">
-        
-        <footer class="container">
-                <p class="float-right"><a href="#">Back to top</a></p>
-                <p>© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-        </footer>
-    </div>
+    <hr class="featurette-divider">
+    
+    <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>© 2017-2019 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
 </body>
 </html>

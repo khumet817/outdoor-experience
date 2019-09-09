@@ -1,5 +1,47 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+article {
+  margin: 1rem 5rem; }
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 5rem; }
+
+.headerLogo {
+  height: 8rem;
+  width: 100%; }
+
 .homeCover {
   background: url(../img/home-page/canyon-1740973_960_720.jpg);
+  background-size: cover;
+  border-radius: 0 !important; }
+
+.text-white {
+  color: #fff !important; }
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.cards {
+  margin: 4rem 10rem !important; }
+
+.about-card {
+  background: url(../img/home-page/wc-emblem.png);
+  background-size: cover; }
+
+.gallery-card {
+  background: url(../img/home-page/gif/gallery.gif);
+  background-size: contain;
+  background-position-y: 42%; }
+
+.contact-card {
+  background: url(../img/home-page/gif/contact.gif);
   background-size: cover; }
 
 /*# sourceMappingURL=main.css.map */
